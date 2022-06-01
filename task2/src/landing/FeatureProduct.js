@@ -1,4 +1,4 @@
-import Image from "../nillkin-case.webp";
+import Image from "../images.jpeg";
 import { Link } from "react-router-dom";
 
 function FeatureProduct() {
@@ -12,7 +12,7 @@ function FeatureProduct() {
           src={Image}
         />
         <div className="card-body">
-          <h6 className="card-title text-center" style={{fontWeight:"none !important"}}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</h6>
+          <h6 className="card-title text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</h6>
           {/* <p className="card-text text-center text-muted">10000 Ks</p> */}
           <div className="d-grid gap-2">
             <Link to="/products/1" className="btn btn-outline-dark" replace>
